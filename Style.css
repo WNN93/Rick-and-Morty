@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;   
+}
+
+body {
+    background-image: url(https://www.xtrafondos.com/descargar.php?id=6046&resolucion=3840x2160);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  .search-bar {
+    background-color: rgb(28, 69, 107);
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    height: 20px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    
+  }
+  .search-input {
+    background-color: rgb(154, 175, 231);
+    border-color: transparent;
+    border-radius: 20px;
+    width: 50%;
+    padding-left: 10px;
+    align-content: center;
+  }
+
+  .character-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    
+    padding-top: 50px;
+  }
+
+  .character-card {
+    position: relative;
+    padding: 20px;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .character-card img {
+    max-width: 100%;
+    
+  }
+  .modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(19, 16, 16, 0.7);
+    align-items: center;
+    justify-content: center;
+  }
+  .modal-content {
+    background-color: #078096;
+    padding: 20px;
+    border-radius: 4px;
+    max-width: 80%;
+    max-height: 80%;
+    overflow: auto;
+  }
+
+  h1 {
+    text-align: center;
+    color: #dbf4f8;
+    margin-top: 10%;
+    font-family: cursive;
+  }
