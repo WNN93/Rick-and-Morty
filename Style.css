@@ -34,7 +34,6 @@ body {
   .character-cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    
     padding-top: 50px;
   }
 
@@ -48,8 +47,8 @@ body {
   }
   .character-card img {
     max-width: 100%;
-    
   }
+
   .modal {
     display: none;
     position: fixed;
@@ -61,6 +60,7 @@ body {
     align-items: center;
     justify-content: center;
   }
+  
   .modal-content {
     background-color: #078096;
     padding: 20px;
